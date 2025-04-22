@@ -1,0 +1,13 @@
+DEVELOPER TASKS
+
+Frontend:
+- Create a dashboard showing scanned container images in a table
+- Add filters: search by name, filter by severity, fix availability
+- Each row should be clickable to open a detailed view
+- Highlight critical/high issues with color badges
+
+Backend:
+- API to list all container images with vulnerability summary
+- API should support filtering by severity & fix availability
+- API for detailed vulnerability view per image
+- Return fields like: image name, package name, CVE ID, severity, fix available, scan date
